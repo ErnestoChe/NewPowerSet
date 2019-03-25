@@ -25,8 +25,15 @@ public class Main {
         s.put("E");
         System.out.println("power S");
         s.log();
-
-        System.out.println("power T");
+        System.out.println(s.remove("z"));
+        s.log();
+        System.out.println(s.remove("c"));
+        s.log();
+        System.out.println(s.remove("a"));
+        s.log();
+        System.out.println(s.remove("c"));
+        s.log();
+        /*System.out.println("power T");
         PowerSet t = p.intersection(s);
         t.log();
 
@@ -73,6 +80,6 @@ public class Main {
         System.out.println(w.isSubset(r));
         System.out.println(r.isSubset(w));
         System.out.println(f.isSubset(w));
-        System.out.println(w.isSubset(f));
+        System.out.println(w.isSubset(f));*/
     }
 }

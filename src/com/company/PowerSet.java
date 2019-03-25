@@ -51,8 +51,10 @@ public class PowerSet {
     {
         // возвращает true если value удалено
         // иначе false
-        return array.remove(value);
-        //return false;
+        boolean flag;
+        flag = array.remove(value);
+        if(flag) count--;
+        return flag;
     }
 
     public PowerSet intersection(PowerSet set2)
